@@ -1,0 +1,12 @@
+package org.brms.myproject;
+rule "MyRule"
+when
+
+  Person(hourlyRate*wage > 100)
+  Person(name : firstName, surname : lastName)
+
+then
+  System.out.println( "Hello" + " " + name + " " + surname + "!" );
+  System.out.println( "You are rich!" );
+
+end

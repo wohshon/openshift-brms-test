@@ -1,0 +1,20 @@
+<org.drools.core.rule.KieModuleMetaInfo>
+  <typeMetaInfos>
+    <entry>
+      <string>org.brms.myproject.Person</string>
+      <org.drools.core.rule.TypeMetaInfo>
+        <kind>CLASS</kind>
+        <role>FACT</role>
+        <isDeclaredType>false</isDeclaredType>
+      </org.drools.core.rule.TypeMetaInfo>
+    </entry>
+  </typeMetaInfos>
+  <rulesByPackage>
+    <entry>
+      <string>org.brms.myproject</string>
+      <set>
+        <string>MyRule</string>
+      </set>
+    </entry>
+  </rulesByPackage>
+</org.drools.core.rule.KieModuleMetaInfo>
